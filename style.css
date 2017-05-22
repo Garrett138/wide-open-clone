@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.desktop-nav{
+
+}
+
+
+.container1{
+  float: left;
+   background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg")
+   no-repeat center center / cover;
+
+  height: 60%;
+  width: 100vw;
+  padding-bottom: 0%;
+  position: absolute;
+}
+
+.container1-2{
+  height: 15px;
+  width: 30px;
+
+}
+
+.workshop {
+
+  font-style: "oswald", oblique;
+  font-size: 110px;
+  color: white;
+  text-align: center;
+  padding-top: 200px
+}
+
+.container2{
+  position: relative;
+  top: 59vh;
+  background-color: #e2dcdc;
+  height: 450px;
+  width: auto;
+  text-align: center;
+  font-size: 30px;
+  padding: 7% 20% 5% 20%;
+  font-style: 'lato' sans-serif;
+  text-decoration-color: gray;
+}
+
+.container2-2{
+font-size: 40px;
+padding-top: 130px;
+
+}
+
+.container3{
+
+}
+
+.mobile-nav{
+
+}
+
+.mobile-nav-links{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 35px;
+  padding-right: 200px;
+  float: right;
+
+}
+
+.mobile-nav-link-item {
+  margin-left: 2em;
+  float: right;
+
+}
+
+.mobile-nav-link {
+  font-style: 'Lato';
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+
+}
+
+
+
+button {
+  z-index: 99999;
+
+}
+
+a.mobile-nav-link:hover {
+  border-bottom: 2px solid green;
+}
